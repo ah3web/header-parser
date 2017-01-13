@@ -5,7 +5,7 @@ var app = express();
 
 
 //Server Start
-app.listen(8080, function(){
+app.listen(process.env.PORT, function(){
     console.log('Server Started.');
 })
 
